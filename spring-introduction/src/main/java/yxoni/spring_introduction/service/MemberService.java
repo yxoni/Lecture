@@ -1,5 +1,7 @@
 package yxoni.spring_introduction.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import yxoni.spring_introduction.domain.Member;
 import yxoni.spring_introduction.repository.MemberRepository;
 import yxoni.spring_introduction.repository.MemoryMemberRepository;

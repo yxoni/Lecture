@@ -1,5 +1,6 @@
 package yxoni.spring_introduction.repository;
 
+import org.springframework.stereotype.Repository;
 import yxoni.spring_introduction.domain.Member;
 
 import java.util.*;

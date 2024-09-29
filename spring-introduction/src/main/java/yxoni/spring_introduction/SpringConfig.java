@@ -4,6 +4,7 @@ import jakarta.persistence.EntityManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import yxoni.spring_introduction.aop.TimeTraceAop;
 import yxoni.spring_introduction.repository.*;
 import yxoni.spring_introduction.service.MemberService;
 

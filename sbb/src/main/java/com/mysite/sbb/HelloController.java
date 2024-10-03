@@ -12,4 +12,10 @@ public class HelloController {
     public String Hello() {
         return "Hello Spring Boot Board";
     }
+
+    @GetMapping("/jump")
+    @ResponseBody
+    public String Jump() {
+        return "점프 투 스프링 부트";
+    }
 }

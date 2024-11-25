@@ -35,3 +35,9 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### H2 데이터베이스 ###
+/local.mv.db
+
+### ubuntu 디렉토리 ###
+/ubuntu/
